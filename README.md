@@ -2,7 +2,9 @@
 SAP Business Application Studio CDS demo
 
 ### Basic Requirements
+- SAP cds extension can be added in vscode directly or from the link: https://tools.hana.ondemand.com/#cloud
 - node & npm & express need to be installed globally
+- In a standard install of npm, the registry is set to https://registry.npmjs.org/ . That is to say, this is the address that npm will download packages from when you run npm install <anything>. You can however change this value with the command npm set registry <new url> .
 - change npm registry:
 >   `npm set @sap:registry=https://npm.sap.com`
 - install cds globally
